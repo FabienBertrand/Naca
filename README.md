@@ -14,7 +14,5 @@ Pour exécuter le programme, il faut :
 
 
 
-Fabien Bertrand
-
 
 
