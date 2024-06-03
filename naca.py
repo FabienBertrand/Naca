@@ -47,7 +47,8 @@ def naca_profile(numero_naca, longeur_corde, nombre_point, distribution_type):
 
 
 # Informations à récupérer
-numero_naca = input("Entrez le numéro du profil NACA (4 chiffres): ")
+numero_naca = str(input( "Entrez le numéro du profil NACA (4 chiffres): "))
+# je prend au format str pour pouvoir prendre les 2 derniers chiffres
 longeur_corde = float(input("Entrez la longueur de la corde (en mètres): "))
 nombre_point = int(input("Entrez le nombre de points le long de la corde: "))
 distribution_type = input("Entrez le type de distribution des points (linéaire/non-uniforme): ")
